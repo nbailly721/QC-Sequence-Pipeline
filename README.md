@@ -47,7 +47,7 @@ All plots are automatically saved for reporting purposes.
 - `Sequence_length_distribution.png` – Histogram of sequence lengths.  
 - `gc_base_proportion.png` – Histogram of GC content.  
 - `Sequence_removal_reason.png` – Pie chart showing reasons for removal.
-- 
+
 ### Packages Used
 
 - **Python Packages**
