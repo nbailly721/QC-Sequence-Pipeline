@@ -1,3 +1,19 @@
+## ========================================================
+## Project: Quality Control and Summary Metrics of Nucleotide Sequences
+## Description:
+##   This script performs quality control and generates summary metrics 
+##   for nucleotide sequences provided in a tab-delimited input file. 
+##   It removes sequences that contain ambiguous bases ('N'), fall below 
+##   a minimum length threshold, or are duplicated. 
+##   Two types of reports are produced: 
+##     1. A removal report detailing sequences filtered out at each QC step.
+##     2. A metrics summary report including sequence length statistics, 
+##        GC content, and proportions of removed sequences. 
+##   Additionally, the script visualizes key aspects of the dataset, 
+##   including histograms of sequence length and GC content, and a pie chart 
+##   showing reasons for sequence removal.
+## ========================================================
+
 #_Environment Set up -----------------
 import pandas as pd
 from sys import argv
