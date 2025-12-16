@@ -9,8 +9,6 @@ This project performs quality control and generates summary metrics for nucleoti
 
 Additionally, the workflow visualizes key aspects of the dataset, including histograms of sequence length and GC content, and a pie chart showing reasons for sequence removal. The script is fully reproducible and can be applied to any nucleotide dataset formatted as a TSV file.
 
----
-
 ### Workflow Overview
 
 #### Data Ingestion & Preparation (Python)
@@ -37,14 +35,10 @@ Additionally, the workflow visualizes key aspects of the dataset, including hist
 
 All plots are automatically saved for reporting purposes.
 
----
-
 ### Datasets Used
 
 - **Sample Dataset:** `sample/bold.tsv`  
   (Contains example nucleotide sequences for testing the script.)
-
----
 
 ### Processed/Generated Files
 
@@ -52,10 +46,8 @@ All plots are automatically saved for reporting purposes.
 - `QC_metrics_report.csv` – Summary metrics for sequences passing QC.  
 - `Sequence_length_distribution.png` – Histogram of sequence lengths.  
 - `gc_base_proportion.png` – Histogram of GC content.  
-- `Sequence_removal_reason.png` – Pie chart showing reasons for removal.  
-
----
-
+- `Sequence_removal_reason.png` – Pie chart showing reasons for removal.
+- 
 ### Packages Used
 
 - **Python Packages**
@@ -64,14 +56,10 @@ All plots are automatically saved for reporting purposes.
   - `seaborn` – Enhanced statistical visualizations.  
   - `math` – Numeric calculations (e.g., number of histogram bins).  
 
----
-
 ### Key Results
 
 - Visualizations of sequence length, GC content, and reasons for removal.  
 - Reports documenting which sequences were filtered and summary metrics.  
-
----
 
 ### Files in This Repository
 
@@ -85,15 +73,11 @@ All plots are automatically saved for reporting purposes.
   - `gc_base_proportion.png` – Example histogram of GC content.  
   - `Sequence_removal_reason.png` – Example pie chart of removal reasons.  
 
----
-
 ### Important Notes
 
 - The script is fully reproducible using the provided sample input.  
 - Easily adaptable to other nucleotide sequence datasets by modifying command-line arguments.  
 - Quality control and visualization steps are modular and can be reused independently.  
-
----
 
 ### Real-World Relevance
 
